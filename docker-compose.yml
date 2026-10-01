@@ -1,0 +1,9 @@
+services:
+  db:
+    build: .
+    container_name: isam_pg
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    # Sin volumen a propósito: `docker compose down` + `up` = entorno limpio.

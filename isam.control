@@ -1,0 +1,4 @@
+comment = 'ISAM index access method (archivos .dat) - Proyecto BDII'
+default_version = '1.0'
+module_pathname = '$libdir/isam'
+relocatable = true
